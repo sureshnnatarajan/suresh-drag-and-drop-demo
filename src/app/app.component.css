@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+.custom-dropzone {
+    height: 150px;
+    background: #777;
+    color: #fff;
+    border: 5px dashed rgb(199, 102, 102);
+    border-radius: 5px;
+    font-size: 20px;
+}

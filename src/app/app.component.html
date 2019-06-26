@@ -1,0 +1,3 @@
+<ngx-dropzone class="custom-dropzone" [showPreviews]="true" [preserveFiles]="false" #dropzone (filesAdded)="onFilesAdded($event)"></ngx-dropzone>
+<button (click)="dropzone.reset()">Reset</button>
+<button (click)="dropzone.showFileSelector()">Show file selector</button>
