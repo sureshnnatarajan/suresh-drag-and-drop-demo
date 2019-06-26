@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  fileList : any = [];
 
   onFilesAdded(files: File[]) {
     console.log(files);
@@ -27,6 +27,7 @@ export class AppComponent  {
 
       // use this for images
       reader.readAsDataURL(file);
+      this.fileList.push(file);
     });
   }
 
